@@ -61,3 +61,26 @@ header {
 }
 
 /* Bottom main games */
+/* ! Qua è da migliorare, non vanno bene le immagini in background */
+.flex-container-bottom-main-games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bottom-main-games .img-bottom-main-games {
+    flex-basis: calc(50% - 10px);
+    border: 1px solid blue;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 20px;
+    aspect-ratio: 16 / 9;
+}
+
+.bottom-main-games .returnal {
+    background-image: url(img/img/returnal-listing-thumb-01-ps5.jpg);
+}
+
+.bottom-main-games .ratchet {
+    background-image: url(img/img/ratchet-and-clank-rift-apart-keyart.jpg);
+}
