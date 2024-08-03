@@ -1,5 +1,9 @@
 /* * * General */
 
+h2 {
+    padding: 10px 0;
+    font-size: 2rem;
+}
 
 /* * * Utilities */
 
@@ -8,11 +12,11 @@
 /* Top header */
 
 header {
-    height: 100px;
+    height: 120px;
 }
 
 .top-header {
-    height: calc(100% / 3);
+    height: 40px;
     background-color: black;
 }
 
@@ -20,3 +24,40 @@ header {
     width: 70px;
 }
 
+/* * * Main games */
+/* Top main games */
+
+.top-main-games {
+    background-image: url(img/img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+}
+
+.top-main-games * {
+    color: white;
+}
+
+.top-main-games .container, .top-main-games .row {
+    height: 100%;
+}
+
+.top-main-games .row {
+    align-content: flex-end;
+}
+
+.top-main-games img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.top-main-games .buy-now {
+    background-color: #CD3D0F;
+    border-radius: 30px;
+    border: 0 solid transparent;
+    margin: 20px 0 50px 0;
+    font-weight: bold;
+}
+
+/* Bottom main games */
