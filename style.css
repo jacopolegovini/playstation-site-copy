@@ -11,6 +11,18 @@ img {
 
 /* * * Utilities */
 
+.buy-now {
+    background-color: #CD3D0F;
+    border-radius: 30px;
+    border: 0 solid transparent;
+    margin: 20px 0 50px 0;
+    font-weight: bold;
+}
+
+.discover-more {
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
 
 /* * * Header */
 /* Top header */
@@ -43,7 +55,7 @@ header {
     color: white;
 }
 
-.top-main-games .container, .top-main-games .row {
+.top-main-games .container-fluid, .top-main-games .row {
     height: 100%;
 }
 
@@ -54,14 +66,6 @@ header {
 .top-main-games img {
     width: 250px;
     margin-bottom: 30px;
-}
-
-.buy-now {
-    background-color: #CD3D0F;
-    border-radius: 30px;
-    border: 0 solid transparent;
-    margin: 20px 0 50px 0;
-    font-weight: bold;
 }
 
 /* Bottom main games */
