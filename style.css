@@ -24,6 +24,13 @@ img {
     margin-bottom: 20px;
 }
 
+.explore-more-btn {
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: #D9DADC;
+    color: #006FCD;
+}
+
 /* * * Header */
 /* Top header */
 
@@ -146,4 +153,16 @@ header {
 .layout-others-new-games img {
     border-radius: 20px;
     padding-bottom: 10px;
+}
+
+
+/* * * Playstation plus */
+
+.ps-plus {
+    background-color: #BEBCBB;
+}
+
+.ps-plus img {
+    width: 250px;
+    margin: 15px 0 20px 0;
 }
