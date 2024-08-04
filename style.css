@@ -62,6 +62,7 @@ header {
 
 /* Bottom main games */
 /* ! Qua è da migliorare, non vanno bene le immagini in background */
+
 .flex-container-bottom-main-games {
     display: flex;
     flex-wrap: wrap;
@@ -83,4 +84,18 @@ header {
 
 .bottom-main-games .ratchet {
     background-image: url(img/img/ratchet-and-clank-rift-apart-keyart.jpg);
+}
+
+
+/* * * Ps5 */
+/* Title ps5 */
+
+.overtitle {
+    color: #006FCD;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-ps5 h2 {
+    padding-top: 0;
 }
