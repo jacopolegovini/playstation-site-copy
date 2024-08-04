@@ -56,7 +56,7 @@ header {
     margin-bottom: 30px;
 }
 
-.top-main-games .buy-now {
+.buy-now {
     background-color: #CD3D0F;
     border-radius: 30px;
     border: 0 solid transparent;
@@ -92,7 +92,6 @@ header {
 
 
 /* * * Ps5 */
-/* Title ps5 */
 
 .overtitle {
     color: #006FCD;
@@ -114,4 +113,33 @@ header {
 
 .not-focus-img {
     opacity: 0.5;
+}
+
+
+/* * * New games */
+
+.main-new-games {
+    background-image: url(img/img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+}
+
+.new-games * {
+    color: white;
+}
+
+.main-new-games img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.dark-bkg-new-games {
+    background-color: #1F1F1F;
+}
+
+.layout-others-new-games img {
+    border-radius: 20px;
+    padding-bottom: 10px;
 }
