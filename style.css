@@ -5,6 +5,10 @@ h2 {
     font-size: 2rem;
 }
 
+img {
+    width: 100%;
+}
+
 /* * * Utilities */
 
 
@@ -98,4 +102,16 @@ header {
 
 .title-ps5 h2 {
     padding-top: 0;
+}
+
+.btn-radius {
+    border-radius: 30px;
+}
+
+.focus-img {
+    border-bottom: 2px solid #006FCD;
+}
+
+.not-focus-img {
+    opacity: 0.5;
 }
