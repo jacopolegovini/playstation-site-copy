@@ -9,8 +9,9 @@ img {
     width: 100%;
 }
 
-li {
+ul {
     list-style-type: none;
+    line-height: 2rem;
 }
 
 a {
@@ -210,4 +211,8 @@ footer img {
 
 footer a {
     color: white;
+}
+
+.bottom-footer a {
+    text-decoration: underline;
 }
