@@ -143,7 +143,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    height: 600px;
+    height: 550px;
+}
+
+.others-new-games {
+    padding-top: 10px;
 }
 
 .new-games * {
@@ -159,10 +163,15 @@ header {
     background-color: #1F1F1F;
 }
 
+.layout-others-new-games {
+    padding-bottom: 20px;
+}
+
 .layout-others-new-games img {
     border-radius: 20px;
     padding-bottom: 10px;
 }
+
 
 
 /* * * Playstation plus */
@@ -177,10 +186,17 @@ header {
 }
 
 
+/* * * Sales */
+
+.sales {
+    padding-top: 30px;
+}
+
 /* * * Playstation now */
 
 .ps-now {
     background-color: #161C3B;
+    padding: 30px 0;
 }
 
 .ps-now img {
