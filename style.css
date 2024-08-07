@@ -9,6 +9,14 @@ img {
     width: 100%;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* * * Utilities */
 
 .buy-now {
@@ -168,5 +176,38 @@ header {
 }
 
 
-/* * * Sales */
+/* * * Playstation now */
 
+.ps-now {
+    background-color: #161C3B;
+}
+
+.ps-now img {
+    width: 250px;
+    margin: 15px 0 20px 0;
+}
+
+
+/* * * Social */
+
+.social h2 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/* * * Footer */
+
+footer {
+    color: white;
+    background-color: #00439C;
+}
+
+footer img {
+    width: 100px;
+    margin-TOP: 60px;
+}
+
+footer a {
+    color: white;
+}
