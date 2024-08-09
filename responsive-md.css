@@ -4,4 +4,10 @@
     .main-new-games img {
         width: 320px;
     }
+
+    /* * * PS5 */
+    .carousel-ps5 > * {
+        padding-bottom: 30px;
+        text-align: center;
+    }
 };

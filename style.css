@@ -121,6 +121,7 @@ header {
 
 .focus-img {
     border-bottom: 2px solid #006FCD;
+    font-weight: 500;
 }
 
 .not-focus-img {
@@ -177,7 +178,6 @@ header {
     margin: 15px 0 20px 0;
 }
 
-
 /* * * Sales */
 
 .sales {
@@ -195,10 +195,6 @@ header {
 .ps-now-copy img {
     width: 250px;
     margin: 15px 0 20px 0;
-}
-
-.ps-now-img img {
-    width: 70%;
 }
 
 
@@ -219,7 +215,7 @@ footer {
 
 footer img {
     width: 100px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 footer a {
