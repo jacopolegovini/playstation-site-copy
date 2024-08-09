@@ -20,6 +20,10 @@ a {
 
 /* * * Utilities */
 
+.log-in {
+    border-radius: 30px;
+}
+
 .buy-now {
     background-color: #CD3D0F;
     border-radius: 30px;
@@ -41,7 +45,6 @@ a {
 }
 
 /* * * Header */
-/* Top header */
 
 header {
     height: 120px;
@@ -54,6 +57,10 @@ header {
 
 .top-header img {
     width: 70px;
+}
+
+.bottom-header {
+    font-weight: 500;
 }
 
 /* * * Main games */
