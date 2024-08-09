@@ -13,6 +13,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- CSS Responsive -->
+     <link rel="stylesheet" href="responsive-md.css">
 </head>
 <body>
     <header>
@@ -104,35 +107,35 @@
                 </div>   
         </div>
         <div class="ps5">
-          <div class="container">
-            <div class="row row-cols-1 g-3">
-              <div class="col title-ps5 text-center mt-5">
-                <section class="overtitle">play has no limits</section>
-                <h2>Ecco la PlayStation 5</h2>
-                <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
-              </div>
-              <div class="col copy-ps5">
+          <div class="container-fluid">
+            <div class="title-ps5 text-center mt-5">
+              <section class="overtitle">play has no limits</section>
+              <h2>Ecco la PlayStation 5</h2>
+              <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+            </div>
+            <div class="pt-3 pt-md-1 row g-3 align-items-center">
+              <div class="col-12 col-md-6 copy-ps5">
                 <h2>Console PlayStation 5</h2>
                 <p class="text-secondary">Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
                 <a href="#" class="btn btn-primary btn-radius">Maggiori informazioni</a>
               </div>
-              <div class="col img-ps5">
+              <div class="col-12 col-md-6 img-ps5">
                 <img src="img/img/playstation-5-thumb.png" alt="ps5">
               </div>
-              <div class="col carousel-ps5 row">
-                <div class="col-4">
+              <div class="mb-5 col-12 carousel-ps5 row row-cols-3 row-cols-md-5">
+                <div class="col">
                   <img src="img/img/playstation-5-thumb.png" alt="ps5" class="focus-img">
                 </div>
-                <div class="col-4 not-focus-img">
+                <div class="col not-focus-img">
                   <img src="img/img/joypad-thumb.png" alt="joypad">
                 </div>
-                <div class="col-4 not-focus-img">
+                <div class="col not-focus-img">
                   <img src="img/img/headset-thumb.png" alt="headset">
                 </div>
-                <div class="col-4 not-focus-img">
+                <div class="col not-focus-img">
                   <img src="img/img/remote-thumb.png" alt="remote">
                 </div>
-                <div class="col-4 not-focus-img">
+                <div class="col not-focus-img">
                   <img src="img/img/camera-thumb.jpg" alt="camera">
                 </div>
               </div>
@@ -142,7 +145,7 @@
         <div class="new-games dark-bkg-new-games">
           <div class="container-fluid">
             <div class="main-new-games row align-items-center align-content-center">
-              <div class="col-auto"><img src="img/img/it-takes-two-logo.png" alt="it takes two logo"></div>
+              <div class="col"><img src="img/img/it-takes-two-logo.png" alt="it takes two logo"></div>
               <div class="col-auto">
                 <h2>
                   Un'avventura cooperativa selvaggia ti attende
@@ -209,13 +212,13 @@
               </div>
           </div>
         </div>
-        <div class="ps4 mb-5">
+        <div class="ps4 mb-5 mt-4">
           <div class="container-fluid">
-            <div class="row row-cols-1">
-              <div class="col general-title-ps4">
-                <h2>Esplora PlayStation 4</h2>
-                <p>Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4</p>
-              </div>
+            <div class="general-title-ps4 container text-center pb-4">
+              <h2>Esplora PlayStation 4</h2>
+              <p>Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
               <div class="col focus-ps4">
                 <img src="img/img/ps4-slim-homepage-image-block.jpg" alt="ps4 slim">
                 <h3>Playstation 4</h3>
@@ -237,11 +240,16 @@
             </div>
           </div>
         </div>
-        <div class="ps-plus pt-4 pb-4">
-          <div class="container-fluid">
-            <img src="img/img/ps-plus-logo.png" alt="ps-plus">
-            <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-            <a href="#" class="btn explore-more-btn mt-3">Esplora PlayStation Plus</a>
+        <div class="ps-plus mt-4 mb-4">
+          <div class="container-fluid row row-cols-1 row-cols-md-2">
+            <div class="ps-plus-copy col">
+              <img src="img/img/ps-plus-logo.png" alt="ps-plus">
+              <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+              <a href="#" class="btn explore-more-btn mt-3">Esplora PlayStation Plus</a>
+            </div>
+            <div class="ps-plus-img-md col">
+              <img src="img/img/ps-plus-april-monthly-games-featured-image-block.png" alt="ps-plus april game" class="d-none d-md-block"> 
+            </div>
           </div>
         </div>
         <div class="sales mt-4 pb-4">
