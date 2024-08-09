@@ -177,16 +177,13 @@ header {
     margin: 15px 0 20px 0;
 }
 
-/* .ps-plus-img-md {
-    display: none;
-} */
-
 
 /* * * Sales */
 
 .sales {
     padding-top: 30px;
 }
+
 
 /* * * Playstation now */
 
@@ -198,6 +195,10 @@ header {
 .ps-now-copy img {
     width: 250px;
     margin: 15px 0 20px 0;
+}
+
+.ps-now-img img {
+    width: 70%;
 }
 
 
